@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency('spree',  '~> 1.3.0')
+  s.add_runtime_dependency('spree',  '~> 2.0.0')
   s.add_runtime_dependency('rdiscount',   '~> 1.6.8')
 
   s.add_development_dependency 'm'
@@ -30,7 +30,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency('sqlite3',      '~> 1.3.4')
   s.add_development_dependency('simplecov',    '~> 0.6.1')
   s.add_development_dependency('sass-rails',   '~> 3.2.5')
-  s.add_development_dependency('jquery-rails', '~> 2.1.3')
-  # s.add_development_dependency('turn',         '~> 0.9.3')
-  
+  s.add_development_dependency('jquery-rails', '~> 2.2.1')
 end
