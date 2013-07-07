@@ -3,6 +3,7 @@ require "rdiscount"
 
 require "spree_essentials/version"
 require "spree_essentials/engine"
+require "spree_essentials/railtie"
 
 module SpreeEssentials
   
